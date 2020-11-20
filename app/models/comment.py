@@ -1,4 +1,4 @@
-from db import Model
+from ..db import Model
 
 
 class Comment(Model):
