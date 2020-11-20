@@ -1,28 +1,6 @@
 from .fixtures import *  # noqa
 
 
-def test_create_user(client):
-    query = """
-    mutation {
-        createUser(userDetails: {
-            name: "Test User",
-            sex: "male",
-            address: "My Address",
-            phoneNumber: "123456789",
-        })
-        {
-            id
-            name
-            address
-        }
-    }
-    """
-
-    result = client.execute(query)
-    assert result['data']['createUser']['id'] == 1
-    assert result['data']['createUser']['name'] == "Test User"
-
-
 def test_get_user_list(client, user):
     query = """
     query {
