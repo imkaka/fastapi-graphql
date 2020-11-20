@@ -20,7 +20,7 @@ Wanna Try?
 
   ```
 
-- Run the server and visit `localhost:500/graphql`
+- Run the server and visit `localhost:5000/graphql`
 
   ```sh
   python run.py
