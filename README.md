@@ -1,4 +1,6 @@
 ## FastAPI GraphQL API
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/imkaka/fastapi-graphql/main.svg)](https://results.pre-commit.ci/latest/github/imkaka/fastapi-graphql/main)
+
 
 Developed a GraphQL API powering Blogging Application Backend using FastAPI, Graphene
 and Orator ORM.

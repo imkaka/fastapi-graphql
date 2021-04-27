@@ -11,4 +11,6 @@ app.add_route("/graphql", GraphQLApp(schema=graphene.Schema(query=Query, mutatio
 
 @app.get("/")
 async def ping():
-    return {"ping": "pong!"}
+    return {
+        "ping": "pong!"
+    }
